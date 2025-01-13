@@ -1,1 +1,1 @@
-# landing-page
+This project involves designing and building a responsive landing page using HTML, CSS, and Flexbox. The focus is on creating a visually appealing and user-friendly layout while demonstrating the practical use of modern web design techniques.
