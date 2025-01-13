@@ -45,6 +45,7 @@ body{
     display: flex;
     margin-bottom: 100px;
     align-items: stretch;
+    gap:100px;
 }
 
 #love-logo{
