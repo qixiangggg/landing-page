@@ -12,13 +12,35 @@ body{
     text-align: center;
     padding-bottom: 150px;
 }
+
+.third-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 150px;
+}
+
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    gap:16px;
+}
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;;
+    margin-bottom: 100px;
 }
-
+.footer{
+    background-color: #3882F6;
+    display:flex;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 12px;
+    margin: 70px;
+    gap:100px;
+}
 .main{
     display: flex;
     margin-bottom: 100px;
@@ -87,4 +109,41 @@ button{
     color: #1F2937;
     font-weight: 900;
     margin: 35px 0;
+}
+
+.quotes{
+    display:flex;
+    flex:1;
+    font-size: 36px;
+    font-weight: 50;
+    color: #1F2937;
+    font-style: italic;
+    justify-content: stretch;
+    padding:0;
+    margin-bottom:15px;
+}
+
+.author{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+}
+
+.footer {
+    flex-wrap: wrap;
+}
+
+.message{
+    font-size: 20px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.details{
+    color: #E5E7EB;
+    
+}
+
+.fourth-section button{
+    border: white 3px solid;
 }
