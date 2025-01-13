@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+}
+.first-section{
+    background-color: #1F2937;
+    padding: 15px 150px;
+}
+
+.second-section{
+    text-align: center;
+    padding-bottom: 150px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;;
+}
+
+.main{
+    display: flex;
+    margin-bottom: 100px;
+    align-items: stretch;
+}
+
+#love-logo{
+    width:75px;
+    height: auto;
+}
+
+#main-img{
+    width:auto;
+    height: 250px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap:20px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first-section .title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap:52px;
+}
+
+.info{
+    max-width: 200px;
+}
+
+.container img{
+    width: 200px;
+    height: 182px;
+    border-radius: 12px;
+    border: #3882F6 solid 1px;
+}
+
+.second-section .title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 35px 0;
+}
